@@ -161,16 +161,6 @@ namespace MouseGesturesTest.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon Icon1 {
-            get {
-                object obj = ResourceManager.GetObject("Icon1", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Left {
@@ -246,6 +236,16 @@ namespace MouseGesturesTest.Properties {
         internal static System.Drawing.Bitmap LeftUpA {
             get {
                 object obj = ResourceManager.GetObject("LeftUpA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Mouse_Gesture_Recognition {
+            get {
+                object obj = ResourceManager.GetObject("Mouse Gesture Recognition", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

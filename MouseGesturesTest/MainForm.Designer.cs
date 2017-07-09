@@ -1,3 +1,6 @@
+using System.Drawing;
+using System.Windows.Forms;
+
 namespace MouseGesturesTest {
   partial class MainForm {
     /// <summary>
@@ -533,6 +536,7 @@ namespace MouseGesturesTest {
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(900,500);
+      this.StartPosition = FormStartPosition.CenterScreen;
       this.Controls.Add(this.label22);
       this.Controls.Add(this.label21);
       this.Controls.Add(this.groupBox1);
@@ -541,8 +545,10 @@ namespace MouseGesturesTest {
       this.Controls.Add(this.label2);
       this.Controls.Add(this.label1);
       this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-      this.Icon = (( System.Drawing.Icon )(resources.GetObject("$this.Icon")));
-      this.MaximizeBox = true;
+      this.Icon = new System.Drawing.Icon("E:/Sheetal/Projects/MouseGestureRecognition/MouseGesturesTest/Resources/icon.ico");
+            //new System.Drawing.Icon("E:/Sheetal/Projects/MouseGestureRecognition/MouseGesturesTest/Resources/icon.ico");
+            //(( System.Drawing.Icon )(resources.GetObject("Resources/Icon1.ico")));
+            this.MaximizeBox = true;
       this.MinimizeBox = true;
       this.Name = "MainForm";
       this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;

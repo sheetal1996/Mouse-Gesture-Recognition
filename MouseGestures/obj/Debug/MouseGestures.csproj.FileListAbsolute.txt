@@ -3,3 +3,7 @@ C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGestures\bin\Debug\MouseGest
 C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGestures\obj\Debug\MouseGestures.csprojResolveAssemblyReference.cache
 C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGestures\obj\Debug\MouseGestures.dll
 C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGestures\obj\Debug\MouseGestures.pdb
+E:\Sheetal\Projects\MouseGestureRecognition\MouseGestures\bin\Debug\MouseGestures.dll
+E:\Sheetal\Projects\MouseGestureRecognition\MouseGestures\bin\Debug\MouseGestures.pdb
+E:\Sheetal\Projects\MouseGestureRecognition\MouseGestures\obj\Debug\MouseGestures.dll
+E:\Sheetal\Projects\MouseGestureRecognition\MouseGestures\obj\Debug\MouseGestures.pdb

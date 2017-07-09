@@ -16,8 +16,11 @@ namespace MouseGesturesTest {
     private PictureBox[] mouseGestureDisplay;
 
     public MainForm() {
+            Thread T = new Thread(splashStart);
+            T.Start();
+            Thread.Sleep(5000);
       InitializeComponent();
-
+            T.Abort();
       mouseGestureDisplay = new PictureBox[18];
 
 			pbUp.Tag = "U";
@@ -166,6 +169,11 @@ namespace MouseGesturesTest {
     private void MainForm_Load(object sender, EventArgs e) {
       ResetImages();
     }
+
+   public void splashStart()
+        {
+            Application.Run(new SplashScreen());
+        }
 
 
   }
