@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseGesturesTest", "MouseGesturesTest\MouseGesturesTest.csproj", "{03637C5B-BD79-46F7-A305-FF9175412402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseGestures", "MouseGestures\MouseGestures.csproj", "{2C512854-EF74-49E7-A152-7413EF161E7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03637C5B-BD79-46F7-A305-FF9175412402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03637C5B-BD79-46F7-A305-FF9175412402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03637C5B-BD79-46F7-A305-FF9175412402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03637C5B-BD79-46F7-A305-FF9175412402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C512854-EF74-49E7-A152-7413EF161E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C512854-EF74-49E7-A152-7413EF161E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C512854-EF74-49E7-A152-7413EF161E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C512854-EF74-49E7-A152-7413EF161E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

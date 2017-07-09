@@ -1,0 +1,15 @@
+C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGesturesTest\bin\Debug\MouseGesturesTest.exe
+C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGesturesTest\bin\Debug\MouseGesturesTest.pdb
+C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGesturesTest\bin\Debug\EnvDTE.dll
+C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGesturesTest\bin\Debug\EnvDTE80.dll
+C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGesturesTest\bin\Debug\MouseGestures.dll
+C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGesturesTest\bin\Debug\stdole.dll
+C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGesturesTest\bin\Debug\MouseGestures.pdb
+C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGesturesTest\bin\Debug\EnvDTE.xml
+C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGesturesTest\bin\Debug\EnvDTE80.xml
+C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGesturesTest\obj\Debug\MouseGesturesTest.csprojResolveAssemblyReference.cache
+C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGesturesTest\obj\Debug\MouseGesturesTest.MainForm.resources
+C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGesturesTest\obj\Debug\MouseGesturesTest.Properties.Resources.resources
+C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGesturesTest\obj\Debug\MouseGesturesTest.csproj.GenerateResource.Cache
+C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGesturesTest\obj\Debug\MouseGesturesTest.exe
+C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGesturesTest\obj\Debug\MouseGesturesTest.pdb

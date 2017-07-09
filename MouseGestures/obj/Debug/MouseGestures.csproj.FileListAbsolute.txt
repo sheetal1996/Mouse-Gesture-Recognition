@@ -1,0 +1,5 @@
+C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGestures\bin\Debug\MouseGestures.dll
+C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGestures\bin\Debug\MouseGestures.pdb
+C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGestures\obj\Debug\MouseGestures.csprojResolveAssemblyReference.cache
+C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGestures\obj\Debug\MouseGestures.dll
+C:\Users\Thakkar's\Desktop\mousegestures-81799\MouseGestures\obj\Debug\MouseGestures.pdb

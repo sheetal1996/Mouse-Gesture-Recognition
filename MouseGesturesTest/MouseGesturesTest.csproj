@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{03637C5B-BD79-46F7-A305-FF9175412402}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MouseGesturesTest</RootNamespace>
+    <AssemblyName>MouseGesturesTest</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="EnvDTE80, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MouseGestures\MouseGestures.csproj">
+      <Project>{2C512854-EF74-49E7-A152-7413EF161E7A}</Project>
+      <Name>MouseGestures</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon.ico" />
+    <EmbeddedResource Include="Images\UDUD.png" />
+    <EmbeddedResource Include="Images\UDUDA.png" />
+    <EmbeddedResource Include="Images\URDL.png" />
+    <EmbeddedResource Include="Images\URDLA.png" />
+    <EmbeddedResource Include="Images\D.png" />
+    <EmbeddedResource Include="Images\DA.png" />
+    <EmbeddedResource Include="Images\DL.png" />
+    <EmbeddedResource Include="Images\DLA.png" />
+    <EmbeddedResource Include="Images\DR.png" />
+    <EmbeddedResource Include="Images\DRA.png" />
+    <EmbeddedResource Include="Images\DU.png" />
+    <EmbeddedResource Include="Images\DUA.png" />
+    <EmbeddedResource Include="Images\L.png" />
+    <EmbeddedResource Include="Images\LA.png" />
+    <EmbeddedResource Include="Images\LD.png" />
+    <EmbeddedResource Include="Images\LDA.png" />
+    <EmbeddedResource Include="Images\LU.png" />
+    <EmbeddedResource Include="Images\LUA.png" />
+    <EmbeddedResource Include="Images\R.png" />
+    <EmbeddedResource Include="Images\RA.png" />
+    <EmbeddedResource Include="Images\RD.png" />
+    <EmbeddedResource Include="Images\RDA.png" />
+    <EmbeddedResource Include="Images\RU.png" />
+    <EmbeddedResource Include="Images\RUA.png" />
+    <EmbeddedResource Include="Images\U.png" />
+    <EmbeddedResource Include="Images\UA.png" />
+    <EmbeddedResource Include="Images\UL.png" />
+    <EmbeddedResource Include="Images\ULA.png" />
+    <EmbeddedResource Include="Images\UR.png" />
+    <EmbeddedResource Include="Images\URA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\UDU.png" />
+    <EmbeddedResource Include="Images\UDUA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\DUDU.png" />
+    <EmbeddedResource Include="Images\DUDUA.png" />
+    <EmbeddedResource Include="Images\RDR.png" />
+    <EmbeddedResource Include="Images\RDRA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Icon1.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
